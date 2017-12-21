@@ -10,5 +10,13 @@ import Foundation
 
 class CurrentTime{
     
+    let myDate = Date()
+    
+    let myCalendar = Calendar.current
+    
+    let Chour = myCalendar.component(.hour, from: myDate)
+    
+    let Cminute = myCalendar.component(.minute, from: myDate)
+    
 }
 
